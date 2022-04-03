@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.power {
+    font-weight: bold;
+}
+
 main {
     overflow-x: hidden;
     height: 100vh;
@@ -241,6 +253,12 @@ main {
 
 .slide:nth-child(15) .cover-text {
     background-color: #cf9ae4;
+}
+
+.place {
+    text-align: center;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 

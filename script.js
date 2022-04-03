@@ -31,7 +31,9 @@ sliders.forEach(slide => {
 })
 
 let laptopImg = document.querySelector("body > main > section:nth-child(3) > div.slide-img-area > img");
-let keyboardImg = document.querySelector("body > main > section:nth-child(9) > div.slide-img-area > img")
+let keyboardImg = document.querySelector("body > main > section:nth-child(9) > div.slide-img-area > img");
+let armImg = document.querySelector("body > main > section:nth-child(5) > div.slide-img-area > img");
+let deskImg = document.querySelector("body > main > section:nth-child(2) > div.slide-img-area > img");
 
 function addMouseEventListener(ImgArea, selectImg, Event) {
     ImgArea.addEventListener(Event, function () {
@@ -43,3 +45,7 @@ addMouseEventListener(laptopImg, "./img/laptop-dark.jpg", "mouseover");
 addMouseEventListener(laptopImg, "./img/laptop-light.jpg", "mouseout");
 addMouseEventListener(keyboardImg, "./img/keyboard-dark.jpg", "mouseover");
 addMouseEventListener(keyboardImg, "./img/keyboard-light.jpg", "mouseout");
+addMouseEventListener(armImg, "./img/funny.jpg", "mouseover");
+addMouseEventListener(armImg, "./img/arm.jpg", "mouseout");
+addMouseEventListener(deskImg, "./img/stand.jpg", "mouseover");
+addMouseEventListener(deskImg, "./img/desk.jpg", "mouseout");
