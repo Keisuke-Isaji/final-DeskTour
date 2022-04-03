@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    overflow-x: hidden;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+}
+
+.slide {
+    height: 100vh;
+    /* overflow-y: scroll; */
+    scroll-snap-align: start;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    color: #fff;
+}
+
+.slide:nth-child(1) {
+    background-color: #ea5021;
+}
+
+.slide:nth-child(2) {
+    background-color: #2996D2;
+}
+
+.slide:nth-child(3) {
+    background-color: #eab31e;
+}
+
+.slide:nth-child(4) {
+    background-color: #6bc968;
+}
+
+.slide:nth-child(5) {
+    background-color: #ae8de2;
+}
+
+.slide:nth-child(6) {
+    background-color: #a6b453;
+}
+
+.slide:nth-child(7) {
+    background-color: #a7e1f8;
+}
+
+.slide:nth-child(8) {
+    background-color: #81cf6a;
+}
+
+.slide:nth-child(9) {
+    background-color: #9f74e4;
+}
+
+.slide:nth-child(10) {
+    background-color: #7ba34c;
+}
+
+.slide:nth-child(11) {
+    background-color: #e093d0;
+}
+
+.slide:nth-child(12) {
+    background-color: #e6974d;
+}
+
+.slide:nth-child(13) {
+    background-color: #69bcd1;
+}
+
+.slide:nth-child(14) {
+    background-color: #79c9a4;
+}
+
+.slide:nth-child(15) {
+    background-color: #cf9ae4;
+}
+
+.slide-img-area {
+    width: 45%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.cover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slide:nth-child(1) .cover-img {
+    background-color: #ea5021;
+}
+
+.slide:nth-child(2) .cover-img {
+    background-color: #2996D2;
+}
+
+.slide:nth-child(3) .cover-img {
+    background-color: #eab31e;
+}
+
+.slide:nth-child(4) .cover-img {
+    background-color: #6bc968;
+}
+
+.slide:nth-child(5) .cover-img {
+    background-color: #ae8de2;
+}
+
+.slide:nth-child(6) .cover-img {
+    background-color: #a6b453;
+}
+
+.slide:nth-child(7) .cover-img {
+    background-color: #a7e1f8;
+}
+
+.slide:nth-child(8) .cover-img {
+    background-color: #81cf6a;
+}
+
+.slide:nth-child(9) .cover-img {
+    background-color: #9f74e4;
+}
+
+.slide:nth-child(10) .cover-img {
+    background-color: #7ba34c;
+}
+
+.slide:nth-child(11) .cover-img {
+    background-color: #e093d0;
+}
+
+.slide:nth-child(12) .cover-img {
+    background-color: #e6974d;
+}
+
+.slide:nth-child(13) .cover-img {
+    background-color: #69bcd1;
+}
+
+.slide:nth-child(14) .cover-img {
+    background-color: #79c9a4;
+}
+
+.slide:nth-child(15) .cover-img {
+    background-color: #cf9ae4;
+}
+
+.slide-img {
+    width: 100%;
+}
+
+.slide-text {
+    position: relative;
+    width: 45%;
+}
+
+.slide-text h2 {
+    font-size: 3rem;
+}
+
+.slide-text p {
+    font-size: 1.5rem;
+}
+
+.cover-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slide:nth-child(1) .cover-text {
+    background-color: #ea5021;
+}
+
+.slide:nth-child(2) .cover-text {
+    background-color: #2996D2;
+}
+
+.slide:nth-child(3) .cover-text {
+    background-color: #eab31e;
+}
+
+.slide:nth-child(4) .cover-text {
+    background-color: #6bc968;
+}
+
+.slide:nth-child(5) .cover-text {
+    background-color: #ae8de2;
+}
+
+.slide:nth-child(6) .cover-text {
+    background-color: #a6b453;
+}
+
+.slide:nth-child(7) .cover-text {
+    background-color: #a7e1f8;
+}
+
+.slide:nth-child(8) .cover-text {
+    background-color: #81cf6a;
+}
+
+.slide:nth-child(9) .cover-text {
+    background-color: #9f74e4;
+}
+
+.slide:nth-child(10) .cover-text {
+    background-color: #7ba34c;
+}
+
+.slide:nth-child(11) .cover-text {
+    background-color: #e093d0;
+}
+
+.slide:nth-child(12) .cover-text {
+    background-color: #e6974d;
+}
+
+.slide:nth-child(13) .cover-text {
+    background-color: #69bcd1;
+}
+
+.slide:nth-child(14) .cover-text {
+    background-color: #79c9a4;
+}
+
+.slide:nth-child(15) .cover-text {
+    background-color: #cf9ae4;
+}
+
+
+@media (max-width: 768px) {
+    .slide {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .slide-img-area {
+        width: 100%;
+    }
+
+    .slide-text {
+        width: 100%;
+    }
+}
