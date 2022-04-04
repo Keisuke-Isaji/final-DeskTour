@@ -260,7 +260,7 @@ main {
     font-size: 150%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/* 
 
 @media (max-width: 768px) {
     .slide {
@@ -275,4 +275,4 @@ main {
     .slide-text {
         width: 100%;
     }
-}
+} */
